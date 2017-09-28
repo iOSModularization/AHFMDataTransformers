@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHFMDataTransformers_Example' do
+  pod 'AHFMDataTransformers', :path => '../'
+
+  target 'AHFMDataTransformers_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

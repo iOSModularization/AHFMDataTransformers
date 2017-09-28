@@ -1,0 +1,19 @@
+PODS:
+  - AHFMDataTransformers (0.1.0):
+    - SwiftyJSON
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - AHFMDataTransformers (from `../`)
+
+EXTERNAL SOURCES:
+  AHFMDataTransformers:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AHFMDataTransformers: 8f1c93407101254ccdd000f80a64b120218bd9cc
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 4491e88a923873b80d0ac41f06519cddd4be79c2
+
+COCOAPODS: 1.3.0.beta.2

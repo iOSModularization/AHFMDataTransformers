@@ -353,10 +353,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AHFMDataTransformers_Example/Pods-AHFMDataTransformers_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AHFMDataTransformers/AHFMDataTransformers.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMDataTransformers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
